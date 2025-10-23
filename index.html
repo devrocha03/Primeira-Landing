@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primeira Landing Page</title>
+  <link rel="stylesheet" href="./assets/css/variaveis.css">
+  <link rel="stylesheet" href="./assets/css/classes.css">
+  <link rel="stylesheet" href="./assets/css/elementos.css">
+  <link rel="stylesheet" href="./assets/css/menu.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body class="main-bg">
+  <input  id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu="button">
+  <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById ('close-menu').checked = false"><a href="#">LOGO</h1></a>
+      <nav>
+        <ul onclick="getElementById ('close-menu').checked = false">
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#caracteristicas">Características</a></li>
+          <li><a href="#galeria">Grid</a></li>
+          <li><a href="#galeria-fotos">Galeria</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <div class="menu-spacing"></div>
+
+
+  <section id="intro" class="main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text">
+        <h2>Seja bem-vindo à nossa primeira landing page!</h2>
+        <p>Esta é uma página de exemplo criada para demonstrar o uso de HTML e CSS. Está sendo a primeira de muitas!
+          Estarei estudando para ser um DEV FullStack. Quero me aperfeiçoar a cada dia.</p>
+      </div>
+      <div class="intro-img">
+        <img src="./assets/img/undraw_landing-page_tsx8.svg"
+          alt="alt serve para descrever a imagem totalmente coloquei aqui de exemplo para entender melhor o uso do atributo LOGO HTML CSS E JS">
+      </div>
+    </div>
+  </section>
+
+  <section id="caracteristicas" class="white-bg section bg-triangulo">
+    <div class="main-content top3-content">
+      <h2>CARACTERÍSTICAS</h2>
+      <p>
+        Unlock your organization’s potential with bespoke immersion programs by Silicon Valley Innovation Center.
+        Discover custom learning experiences that drive innovation, foster leadership, and deliver measurable results,
+        inspired by insights from Silicon Valley and beyond.
+      </p>
+      <p>
+        Experience the epicenter of innovation in Silicon Valley, or choose from our global locations to find the
+        perfect setting for your executive education program.
+      </p>
+      <p>
+        Create a personalized plan aligned with your organization’s strategic goals and growth objectives. Tailor your
+        program to focus on innovation, leadership development, and business transformation with expert guidance.
+      </p>
+      <div class="top3-img">
+        <img src="./assets/img/undraw_working_n9u0.svg" alt="">
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="main-bg section">
+    <div class="main-content galeria-content">
+      <h2 class="grid-galeria-h2">Galeria</h2>
+      <p class="grid-galeria-p"> The 'wonder material'</p>
+      <div class="grid">
+        <article>
+          <h3>Energia solar</h3>
+          <p>Inside a lab on the outskirts of Oxford, UK, sample solar photovoltaic (PV) cells are stacked up waiting to
+            be put through various tests. One researcher uses an electron microscope to scan and analyse the cells for
+            impurities that could impact efficiency. Another measures cells' response to changes in the light spectrum..
+          </p>
+        </article>
+        <article>
+          <h3>Laboratório</h3>
+          <p>The lab is run by Oxford PV, a spin-off from Oxford University, one of several start-ups around the world
+            developing what some argue is the game-changing next generation of solar power: tandem perovskite solar
+            cells.
+          </p>
+        </article>
+        <article>
+          <h3>Futuro</h3>
+          <p>Perovskite is a mineral first discovered in the Ural Mountains in Eurasia in 1839. But the name today
+            refers to various materials made synthetically with crystal structures that mirror that of the mineral. It
+            can be manufactured from materials such as bromine, chlorine, lead and tin, which are all readily available
+            today.
+          </p>
+      </div>
+  </section>
+
+  <section id="galeria-fotos" class="white-bg section bg-triangulo">
+    <div class="main-content galeria-content-fotos">
+      <h2 class="grid-galeria-fotos">Fotos</h2>
+      <p class="grid-descricao"> Algumas Fotos</p>
+
+      <div class="grid">
+        <div class="galeria-img">
+          <img src="./assets/img/imagens/photo-1481627834876-b7833e8f5570.avif" alt="">
+        </div>
+        <div class="galeria-img">
+          <img src="./assets/img/imagens/photo-1621268996424-3e3b03a2b5e7.avif" alt="">
+        </div>
+        <div class="galeria-img">
+          <img src="./assets/img/imagens/photo-1623241187960-4a57f68560ea.avif" alt="">
+        </div>
+        <div class="galeria-img">
+          <img src="./assets/img/imagens/photo-1676222619018-e988676e1c46.avif" alt="">
+        </div>
+        <div class="galeria-img">
+          <img src="./assets/img/imagens/photo-1701619581784-8124269ea611.avif" alt="">
+        </div>
+        <div class="galeria-img">
+          <img src="./assets/img/imagens/photo-1708478564978-91a6d5818e30.avif" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="section main-bg">
+    <div class="main-content top3-content color-text-white">
+      <h2>Pricing</h2>
+      <p>
+        Unlock your organization’s potential with bespoke immersion programs by Silicon Valley Innovation Center.
+        Discover custom learning experiences that drive innovation, foster leadership, and deliver measurable results,
+        inspired by insights from Silicon Valley and beyond.
+      </p>
+      <p>
+        Experience the epicenter of innovation in Silicon Valley, or choose from our global locations to find the
+        perfect setting for your executive education program.
+      </p>
+
+      <div class="responsive-table ">
+        <table>
+          <caption>Pricing Table</caption>
+          <thead>
+            <tr>
+              <th>Title 1</th>
+              <th>Title 2</th>
+              <th>Title 3</th>
+              <th>Title 4</th>
+              <th>Title 5</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>content 1</td>
+              <td>content 2</td>
+              <td>content 3</td>
+              <td>content 4</td>
+              <td>content 5</td>
+            </tr>
+            <tr>
+              <td>content 1</td>
+              <td>content 2</td>
+              <td>content 3</td>
+              <td>content 4</td>
+              <td>content 5</td>
+            </tr>
+            <tr>
+              <td>content 1</td>
+              <td>content 2</td>
+              <td>content 3</td>
+              <td>content 4</td>
+              <td>content 5</td>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>Testando</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="main-bg section">
+    <div class="main-content intro-content ">
+      <div class="intro-text">
+        <h2>Contact us</h2>
+        <p>A contact page is the place where you provide information such as your email address, phone number, mailing
+          address and location, created using an online form builder. Using attractive and compelling design ideas, they
+          draw in clients and encourage website visitors to engage with the brand. The following websites boast unique
+          and engaging contact page examples.</p>
+      </div>
+      <div class="intro-img">
+        <img src="./assets/img/imagens/undraw_contact-us_kcoa.svg"
+          alt="alt serve para descrever a imagem totalmente coloquei aqui de exemplo para entender melhor o uso do atributo LOGO HTML CSS E JS">
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <fieldset class="form-grid">
+        <legend>Contact Me</legend>
+
+        <div class="form-group">
+          <label for="first-name">Primeiro Nome</label>
+          <input type="text" name="first-name" id="first-name" placeholder="Seu Primeiro Nome">
+        </div>
+
+        <div class="form-group">
+          <label for="second-name">Segundo Nome</label>
+          <input type="text" name="second-name" id="second-name" placeholder="Seu Segundo Nome">
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" placeholder="exemplo@email.com">
+        </div>
+
+        <div class="form-group full-width">
+          <label for="message">Mensagem</label>
+          <textarea name="message" id="message" cols="30" rows="8" placeholder="Digite sua mensagem aqui..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit">Enviar</button>
+        </div>
+      </fieldset>
+    </div>
+  </section>
+
+  <footer id="footer" class=" footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="https://alexandrerochafotografias.com.br/">
+        Feito com ❤️ por João Alexandre
+    </p></a>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
