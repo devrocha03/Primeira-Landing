@@ -14,11 +14,6 @@ Aprender na prática como construir páginas modernas e bem organizadas, entende
 Este é apenas o começo!  
 Estou **em constante aprendizado** e me preparando para crescer na área de **Desenvolvimento Full Stack**, expandindo meus conhecimentos para **JavaScript, TypeScript, e frameworks modernos**.
 
-## Visual do projeto
-`![Prévia do projeto](<img width="1280" height="1392" alt="image" src="https://github.com/user-attachments/assets/536b1cb2-0822-4794-b6c6-01d24073fd92"/>)`
-`(<img width="1280" height="1392" alt="image" src="https://github.com/user-attachments/assets/4231073f-3ccd-45d5-aa12-98579e490a95" />)`
-
-
 ## Contato
 Se quiser trocar ideias, sugestões ou dicas sobre desenvolvimento, será um prazer conectar!  
 👉 www.linkedin.com/in/joão-alexandre-rocha
